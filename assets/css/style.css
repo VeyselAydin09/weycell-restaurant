@@ -569,3 +569,15 @@ body.nav-active {
   justify-items: center;
   transition: var(--transition-2);
 }
+.preload > * {
+  transition: var(--transition-1);
+}
+
+.preload.loaded > * {
+  opacity: 0;
+}
+
+.preload.loaded {
+  transition-delay: 250ms;
+  transform: translateY(100%);
+}
