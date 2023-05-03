@@ -623,3 +623,11 @@ body.nav-active {
     background-position: 0%;
   }
 }
+
+/*-----------------------------------*\
+  #TOPBAR
+\*-----------------------------------*/
+
+.topbar {
+  display: none;
+}
