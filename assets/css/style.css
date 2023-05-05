@@ -737,3 +737,15 @@ body.nav-active {
   border-block-end: 1px solid var(--white-alpha-20);
   margin-block-end: 100px;
 }
+.navbar-link::after {
+  display: none;
+}
+
+.navbar-link .span {
+  transition: var(--transition-1);
+}
+
+.navbar-link:is(:hover, :focus-visible, .active) .span {
+  color: var(--gold-crayola);
+  transform: translateX(20px);
+}
