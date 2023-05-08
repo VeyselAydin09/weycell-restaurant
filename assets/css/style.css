@@ -859,3 +859,11 @@ body.nav-active {
 .hero .slider-item.active .slider-bg {
   animation: smoothScale 7s linear forwards;
 }
+@keyframes smoothScale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.15);
+  }
+}
