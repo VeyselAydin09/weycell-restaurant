@@ -855,3 +855,7 @@ body.nav-active {
   user-select: none;
   z-index: -1;
 }
+
+.hero .slider-item.active .slider-bg {
+  animation: smoothScale 7s linear forwards;
+}
