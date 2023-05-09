@@ -925,3 +925,6 @@ body.nav-active {
     opacity: 1;
   }
 }
+.hero .slider-item.active .section-subtitle {
+  animation-delay: 500ms;
+}
