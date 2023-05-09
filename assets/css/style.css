@@ -893,3 +893,10 @@ body.nav-active {
   margin-inline: auto;
   margin-block-end: 6px;
 }
+.hero-btn .span {
+  color: var(--black);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-1);
+  line-height: var(--lineHeight-3);
+}
