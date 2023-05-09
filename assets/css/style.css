@@ -928,3 +928,6 @@ body.nav-active {
 .hero .slider-item.active .section-subtitle {
   animation-delay: 500ms;
 }
+.hero .slider-item.active .hero-title {
+  animation-delay: 1000ms;
+}
