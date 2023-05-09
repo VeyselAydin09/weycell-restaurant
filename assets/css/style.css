@@ -914,3 +914,9 @@ body.nav-active {
 .hero .slider-item.active .slider-reveal {
   animation: sliderReveal 1s ease forwards;
 }
+@keyframes sliderReveal {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
