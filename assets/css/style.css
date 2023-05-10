@@ -951,3 +951,8 @@ body.nav-active {
 .service-card {
   overflow: hidden;
 }
+.service-card .has-before {
+  padding-block: 30px;
+  margin-block-end: 26px;
+  z-index: 1;
+}
