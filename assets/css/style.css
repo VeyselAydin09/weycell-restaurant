@@ -937,3 +937,10 @@ body.nav-active {
 .hero .slider-item.active .btn {
   animation-delay: 2s;
 }
+/*-----------------------------------*\
+  #SERVICE
+\*-----------------------------------*/
+
+.service .section-title {
+  margin-block-end: 16px;
+}
