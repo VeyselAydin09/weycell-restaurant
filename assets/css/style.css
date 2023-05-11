@@ -987,3 +987,10 @@ body.nav-active {
 .service .card-title {
   margin-block-end: 12px;
 }
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+.about .section-text {
+  margin-block: 15px 30px;
+}
