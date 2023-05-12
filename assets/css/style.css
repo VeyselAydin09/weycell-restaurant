@@ -1030,3 +1030,12 @@ body.nav-active {
   right: 0;
   overflow: hidden;
 }
+.about .abs-img-1::before {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  background-image: url("../images/img-pattern.svg");
+  background-repeat: repeat;
+}
