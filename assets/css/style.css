@@ -1007,3 +1007,21 @@ body.nav-active {
   position: relative;
   margin-block-end: 120px;
 }
+.about-banner > .w-100 {
+  padding-inline-start: 50px;
+}
+
+.about .abs-img {
+  position: absolute;
+}
+
+.about .abs-img::before {
+  z-index: -1;
+}
+
+.about .abs-img-1 {
+  bottom: -120px;
+  left: 0;
+  width: 150px;
+  padding-block: 50px;
+}
