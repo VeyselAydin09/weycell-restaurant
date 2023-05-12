@@ -1025,3 +1025,8 @@ body.nav-active {
   width: 150px;
   padding-block: 50px;
 }
+.about .abs-img-2 {
+  top: -65px;
+  right: 0;
+  overflow: hidden;
+}
