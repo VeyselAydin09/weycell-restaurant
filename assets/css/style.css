@@ -1046,3 +1046,10 @@ body.nav-active {
   background-size: contain;
   animation: rotate360 15s linear infinite;
 }
+/*-----------------------------------*\
+  #SPECIAL DISH
+\*-----------------------------------*/
+
+.special-dish-content {
+  padding-block: 70px;
+}
