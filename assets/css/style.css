@@ -1105,3 +1105,11 @@ body.nav-active {
 .hover\:card .card-banner .img-cover {
   transition: var(--transition-2);
 }
+.menu-card .card-banner {
+  flex-shrink: 0;
+  border-radius: var(--radius-24);
+}
+
+.menu-card .card-title {
+  transition: var(--transition-1);
+}
