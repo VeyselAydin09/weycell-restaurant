@@ -1131,3 +1131,7 @@ body.nav-active {
   color: var(--gold-crayola);
   margin-block: 10px;
 }
+.menu-card .card-text {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-4);
+}
