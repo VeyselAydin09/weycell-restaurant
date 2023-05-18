@@ -1174,3 +1174,12 @@ body.nav-active {
   gap: 2px;
   margin-block: 40px 50px;
 }
+.testi .separator {
+  animation: rotate360 15s linear infinite;
+}
+
+.profile .img {
+  margin-inline: auto;
+  border-radius: var(--radius-circle);
+  margin-block-end: 15px;
+}
