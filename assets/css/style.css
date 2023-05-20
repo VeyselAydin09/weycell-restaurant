@@ -1194,11 +1194,18 @@ body.nav-active {
   #RESERVATION
 \*-----------------------------------*/
 
-.reservation-form { margin-block-start: -270px; }
+.reservation-form {
+  margin-block-start: -270px;
+}
 
-.form-text { margin-block-end: 40px; }
+.form-text {
+  margin-block-end: 40px;
+}
 
 .form-text .link {
   display: inline;
   color: var(--gold-crayola);
+}
+.form-right .headline-1 {
+  margin-block-end: 40px;
 }
