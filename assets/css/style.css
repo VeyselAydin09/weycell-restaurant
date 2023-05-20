@@ -1189,3 +1189,16 @@ body.nav-active {
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-3);
 }
+
+/*-----------------------------------*\
+  #RESERVATION
+\*-----------------------------------*/
+
+.reservation-form { margin-block-start: -270px; }
+
+.form-text { margin-block-end: 40px; }
+
+.form-text .link {
+  display: inline;
+  color: var(--gold-crayola);
+}
