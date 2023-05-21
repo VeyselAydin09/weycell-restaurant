@@ -1243,3 +1243,12 @@ textarea.input-field {
   padding-block: 20px;
   line-height: var(--lineHeight-1);
 }
+.form-left .btn {
+  max-width: 100%;
+  width: 100%;
+}
+
+.form-right {
+  background-repeat: repeat;
+  background-position: top left;
+}
