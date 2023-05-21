@@ -1228,3 +1228,11 @@ body.nav-active {
 .form-right {
   padding: 40px 20px 30px;
 }
+.input-field[type="date"] {
+  text-transform: uppercase;
+  padding-inline-end: 10px;
+}
+
+.input-field[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
