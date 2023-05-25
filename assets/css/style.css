@@ -1366,3 +1366,8 @@ textarea.input-field {
 .footer-brand::after {
   right: 0;
 }
+.footer-brand .logo {
+  max-width: max-content;
+  margin-inline: auto;
+  margin-block-end: 40px;
+}
