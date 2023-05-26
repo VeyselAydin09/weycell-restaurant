@@ -1407,3 +1407,11 @@ textarea.input-field {
   display: grid;
   gap: 20px;
 }
+.footer-link {
+  color: var(--quick-silver);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-4);
+  margin-inline: auto;
+  transition: var(--transition-1);
+}
