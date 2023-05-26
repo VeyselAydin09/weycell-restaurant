@@ -1382,3 +1382,16 @@ textarea.input-field {
   gap: 2px;
   margin-block: 40px 25px;
 }
+
+.footer-brand .separator {
+  animation: rotate360 15s linear infinite;
+}
+
+.footer-brand .label-1 {
+  margin-block-end: 30px;
+}
+
+.footer-brand .label-1 .span {
+  display: inline;
+  color: var(--white);
+}
