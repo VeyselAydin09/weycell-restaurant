@@ -1395,3 +1395,15 @@ textarea.input-field {
   display: inline;
   color: var(--white);
 }
+.footer-brand .icon-wrapper .input-field {
+  cursor: text;
+}
+
+.footer-brand .btn {
+  min-width: 100%;
+}
+
+.footer-list {
+  display: grid;
+  gap: 20px;
+}
