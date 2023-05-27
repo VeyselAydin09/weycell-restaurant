@@ -1461,3 +1461,13 @@ textarea.input-field {
   opacity: 1;
   visibility: visible;
 }
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for larger than 575px screen
+ */
+
+@media (min-width: 575px) {
