@@ -1456,3 +1456,8 @@ textarea.input-field {
   background-color: var(--white);
   color: var(--gold-crayola);
 }
+
+.back-top-btn.active {
+  opacity: 1;
+  visibility: visible;
+}
