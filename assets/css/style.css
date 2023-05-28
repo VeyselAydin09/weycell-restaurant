@@ -1484,3 +1484,15 @@ textarea.input-field {
     --fontSize-body-2: 2rem;
 
   }
+
+  /**
+   * REUSED STYLE
+   */
+
+  :is(.service, .about) .section-text {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+  .contact-number { --fontSize-body-1: 3rem; }
+
