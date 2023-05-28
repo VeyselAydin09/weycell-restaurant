@@ -1511,3 +1511,4 @@ textarea.input-field {
     z-index: 4;
     transition: var(--transition-1);
   }
+  .topbar:has(~ .header.active) { transform: translateY(-100%); }
