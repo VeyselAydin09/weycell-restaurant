@@ -1471,3 +1471,16 @@ textarea.input-field {
  */
 
 @media (min-width: 575px) {
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fontSize-body-2: 2rem;
+
+  }
