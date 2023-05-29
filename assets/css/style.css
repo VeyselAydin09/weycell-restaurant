@@ -1517,3 +1517,13 @@ textarea.input-field {
   .topbar .separator {
     display: none;
   }
+  .topbar .container,
+  .topbar-item {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .container {
+    justify-content: center;
+    gap: 30px;
+  }
+
