@@ -1547,3 +1547,10 @@ textarea.input-field {
   .topbar .link:is(:hover, :focus-visible) {
     color: var(--gold-crayola);
   }
+  /**
+   * HEADER
+   */
+
+  .header {
+    top: 51px;
+  }
