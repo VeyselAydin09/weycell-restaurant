@@ -1562,3 +1562,11 @@ textarea.input-field {
     display: block;
     margin-inline-start: auto;
   }
+
+  /**
+   * HERO
+   */
+
+  .hero-btn {
+    transform: scale(0.7);
+  }
