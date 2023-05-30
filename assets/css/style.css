@@ -1570,3 +1570,15 @@ textarea.input-field {
   .hero-btn {
     transform: scale(0.7);
   }
+  .hero-btn {
+    transform: scale(0.7);
+  }
+
+  /**
+   * SERVICE
+   */
+
+  .service .container {
+    max-width: 420px;
+    margin-inline: auto;
+  }
