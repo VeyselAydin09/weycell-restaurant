@@ -1631,3 +1631,12 @@ textarea.input-field {
     flex-grow: 1;
     border-block: 1px solid var(--white-alpha-20);
   }
+
+  /**
+   * EVENT
+   */
+
+  .event .container {
+    max-width: 420px;
+    margin-inline: auto;
+  }
