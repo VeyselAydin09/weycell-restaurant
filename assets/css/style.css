@@ -1476,13 +1476,11 @@ textarea.input-field {
    */
 
   :root {
-
     /**
      * typography
      */
 
     --fontSize-body-2: 2rem;
-
   }
 
   /**
@@ -1494,7 +1492,9 @@ textarea.input-field {
     margin-inline: auto;
   }
 
-  .contact-number { --fontSize-body-1: 3rem; }
+  .contact-number {
+    --fontSize-body-1: 3rem;
+  }
 
   /**
    * TOPBAR
@@ -1511,7 +1511,9 @@ textarea.input-field {
     z-index: 4;
     transition: var(--transition-1);
   }
-  .topbar:has(~ .header.active) { transform: translateY(-100%); }
+  .topbar:has(~ .header.active) {
+    transform: translateY(-100%);
+  }
 
   .topbar-item:not(.link),
   .topbar .separator {
@@ -1526,7 +1528,6 @@ textarea.input-field {
     justify-content: center;
     gap: 30px;
   }
-
 
   .topbar-item {
     gap: 6px;
@@ -1602,7 +1603,6 @@ textarea.input-field {
     --fontSize-body-1: 2.4rem;
   }
 
-
   /**
    * MENU
    */
@@ -1653,3 +1653,17 @@ textarea.input-field {
   .footer .input-wrapper {
     position: relative;
   }
+
+  .footer .input-field {
+    margin-block-end: 0;
+    padding-inline-end: 205px;
+  }
+
+  .footer-brand .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: max-content;
+  }
+}
