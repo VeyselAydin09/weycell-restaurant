@@ -1602,3 +1602,18 @@ textarea.input-field {
     --fontSize-body-1: 2.4rem;
   }
 
+
+  /**
+   * MENU
+   */
+
+  .menu-card .title-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .menu-card .badge {
+    margin-block-start: 0;
+  }
