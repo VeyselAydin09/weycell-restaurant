@@ -1689,3 +1689,12 @@ textarea.input-field {
     width: calc(50% - 20px);
     margin-inline: auto;
   }
+
+  /**
+   * HEADER
+   */
+
+  .navbar-list {
+    margin-inline: 30px;
+  }
+
