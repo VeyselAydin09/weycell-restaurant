@@ -1667,3 +1667,16 @@ textarea.input-field {
     min-width: max-content;
   }
 }
+
+/**
+ * responsive for larger than 768px screen
+ */
+
+@media (min-width: 768px) {
+  /**
+   * REUSED STYLE
+   */
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
