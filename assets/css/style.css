@@ -1778,3 +1778,11 @@ textarea.input-field {
   :is(.service, .event) .container {
     max-width: unset;
   }
+  :is(.service, .event) .grid-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  :is(.service, .event) .grid-list li:last-child {
+    grid-column: auto;
+    width: 100%;
+  }
