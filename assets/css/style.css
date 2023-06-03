@@ -1761,3 +1761,12 @@ textarea.input-field {
   /**
    * CUSTOM PROPERTY
    */
+
+  :root {
+    /**
+     * spacing
+     */
+
+    --section-space: 100px;
+  }
+
