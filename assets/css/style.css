@@ -1786,14 +1786,12 @@ textarea.input-field {
     grid-column: auto;
     width: 100%;
   }
+
   /**
-   * TOPBAR
+   * SERVICE
    */
 
-  .topbar-item:not(.link) {
-    display: flex;
+  .service .shape {
+    display: block;
   }
 
-  .topbar .item-2 {
-    margin-inline-end: auto;
-  }
