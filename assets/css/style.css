@@ -1805,3 +1805,12 @@ textarea.input-field {
     top: 0;
     right: 0;
   }
+  /**
+   * ABOUT
+   */
+
+  .about .container {
+    grid-template-columns: 0.7fr 1fr;
+    gap: 30px;
+  }
+
