@@ -1837,3 +1837,14 @@ textarea.input-field {
   .special-dish .btn {
     margin-inline: 0;
   }
+
+  .special-dish-content .wrapper {
+    justify-content: flex-start;
+  }
+
+  .special-dish .abs-img {
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    animation: move 5s linear infinite;
+  }
