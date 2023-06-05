@@ -1814,3 +1814,13 @@ textarea.input-field {
     gap: 30px;
   }
 
+
+  /**
+   * SPECIAL DISH
+   */
+
+  .special-dish {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
