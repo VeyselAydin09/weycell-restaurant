@@ -1866,3 +1866,13 @@ textarea.input-field {
     height: 100%;
     border-inline-start: 1px solid var(--white-alpha-20);
   }
+
+  /**
+   * TESTIMONIALS
+   */
+
+  .testi-text {
+    max-width: 910px;
+    margin-inline: auto;
+  }
+
