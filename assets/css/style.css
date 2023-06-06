@@ -1770,7 +1770,6 @@ textarea.input-field {
     --section-space: 100px;
   }
 
-
   /**
    * REUSED STYLE
    */
@@ -1795,7 +1794,6 @@ textarea.input-field {
     display: block;
   }
 
-
   .service .shape-1 {
     bottom: 0;
     left: 0;
@@ -1813,7 +1811,6 @@ textarea.input-field {
     grid-template-columns: 0.7fr 1fr;
     gap: 30px;
   }
-
 
   /**
    * SPECIAL DISH
@@ -1893,3 +1890,13 @@ textarea.input-field {
     grid-template-columns: 0.45fr 1fr 0.45fr;
     align-items: center;
   }
+  .footer-brand {
+    grid-column: auto;
+    order: 1;
+    padding-block: 100px;
+  }
+
+  .footer-list:last-child {
+    order: 2;
+  }
+}
