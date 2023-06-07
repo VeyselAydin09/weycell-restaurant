@@ -1926,3 +1926,15 @@ textarea.input-field {
     margin-inline: auto;
   }
 
+
+  /**
+   * TOPBAR
+   */
+
+  .topbar .container {
+    max-width: unset;
+  }
+
+  .topbar .separator {
+    display: block;
+  }
