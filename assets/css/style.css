@@ -1938,3 +1938,13 @@ textarea.input-field {
   .topbar .separator {
     display: block;
   }
+
+  /**
+   * HEADER
+   */
+
+  .nav-open-btn,
+  .navbar > *:not(.navbar-list),
+  .header .overlay {
+    display: none;
+  }
