@@ -1948,3 +1948,6 @@ textarea.input-field {
   .header .overlay {
     display: none;
   }
+  .header .container {
+    max-width: unset;
+  }
