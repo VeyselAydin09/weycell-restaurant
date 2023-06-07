@@ -1915,3 +1915,14 @@ textarea.input-field {
 
     --fontSize-title-2: 2.5rem;
   }
+  /**
+   * REUSED STYLE
+   */
+
+  .container,
+  :is(.service, .event) .container {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
