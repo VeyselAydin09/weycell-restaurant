@@ -1900,3 +1900,11 @@ textarea.input-field {
     order: 2;
   }
 }
+/**
+ * responsive for larger than 1200px screen
+ */
+
+@media (min-width: 1200px) {
+  /**
+   * CUSTOM PROPERTY
+   */
