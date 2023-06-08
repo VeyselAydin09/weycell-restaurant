@@ -1988,3 +1988,11 @@ textarea.input-field {
   .navbar-link::after {
     display: block;
   }
+  .navbar-link.active::after {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+
+  .header .btn {
+    margin-inline-start: 0;
+  }
