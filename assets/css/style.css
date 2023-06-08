@@ -1951,3 +1951,14 @@ textarea.input-field {
   .header .container {
     max-width: unset;
   }
+  .navbar,
+  .navbar.active,
+  .navbar-list {
+    all: unset;
+  }
+
+  .navbar,
+  .navbar.active {
+    margin-inline: auto 20px;
+  }
+
