@@ -1996,3 +1996,17 @@ textarea.input-field {
   .header .btn {
     margin-inline-start: 0;
   }
+
+  /**
+   * HERO
+   */
+
+  .hero {
+    height: 880px;
+  }
+
+  .hero-btn {
+    bottom: 50px;
+    right: 50px;
+    transform: scale(1);
+  }
