@@ -1975,3 +1975,16 @@ textarea.input-field {
     display: none;
   }
 
+
+  .navbar-link:is(:hover, :focus-visible, .active) .span {
+    transform: unset;
+  }
+
+  .navbar-link {
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--letterSpacing-1);
+  }
+
+  .navbar-link::after {
+    display: block;
+  }
