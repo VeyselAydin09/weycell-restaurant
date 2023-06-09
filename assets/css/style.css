@@ -2026,3 +2026,11 @@ textarea.input-field {
     margin-block-end: 75px;
   }
 
+  /**
+   * ABOUT
+   */
+
+  .about {
+    padding-block: 170px 100px;
+  }
+
