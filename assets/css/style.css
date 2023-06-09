@@ -2010,3 +2010,19 @@ textarea.input-field {
     right: 50px;
     transform: scale(1);
   }
+  /**
+   * SERVICE
+   */
+
+  .service .grid-list {
+    gap: 150px;
+  }
+
+  .service .grid-list li:nth-child(2n + 1) {
+    transform: translateY(-160px);
+  }
+
+  .service .section-text {
+    margin-block-end: 75px;
+  }
+
