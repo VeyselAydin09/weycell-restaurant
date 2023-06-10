@@ -2071,3 +2071,13 @@ textarea.input-field {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/**
+ * responsive for larger than 1400px screen
+ */
+
+@media (min-width: 1400px) {
+  /**
+   * HEADER
+   */
+
