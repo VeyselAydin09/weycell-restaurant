@@ -2057,3 +2057,12 @@ textarea.input-field {
     gap: 55px 200px;
     margin-block-end: 55px;
   }
+
+  /**
+   * TESTIMONIALS
+   */
+
+  .form-left,
+  .form-right {
+    padding: 75px 60px;
+  }
