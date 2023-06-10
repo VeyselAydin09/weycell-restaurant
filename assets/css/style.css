@@ -1926,7 +1926,6 @@ textarea.input-field {
     margin-inline: auto;
   }
 
-
   /**
    * TOPBAR
    */
@@ -1974,7 +1973,6 @@ textarea.input-field {
   .navbar .separator {
     display: none;
   }
-
 
   .navbar-link:is(:hover, :focus-visible, .active) .span {
     transform: unset;
@@ -2034,7 +2032,6 @@ textarea.input-field {
     padding-block: 170px 100px;
   }
 
-
   /**
    * SPECIAL DISH
    */
@@ -2066,3 +2063,11 @@ textarea.input-field {
   .form-right {
     padding: 75px 60px;
   }
+  /**
+   * FEATURES
+   */
+
+  .features .grid-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
