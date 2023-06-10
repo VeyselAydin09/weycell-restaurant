@@ -2081,3 +2081,6 @@ textarea.input-field {
    * HEADER
    */
 
+  .navbar {
+    margin-inline: auto;
+  }
