@@ -2091,3 +2091,9 @@ textarea.input-field {
   .about-content {
     padding-inline-end: 90px;
   }
+  .about .shape {
+    display: block;
+    top: 46%;
+    left: 0;
+  }
+
