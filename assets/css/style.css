@@ -2084,3 +2084,10 @@ textarea.input-field {
   .navbar {
     margin-inline: auto;
   }
+  /**
+   * ABOUT
+   */
+
+  .about-content {
+    padding-inline-end: 90px;
+  }
