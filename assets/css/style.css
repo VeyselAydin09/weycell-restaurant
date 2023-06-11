@@ -2097,3 +2097,18 @@ textarea.input-field {
     left: 0;
   }
 
+  /**
+   * SPECIAL DISH
+   */
+
+  .special-dish {
+    overflow: visible;
+    position: relative;
+  }
+
+  .special-dish .shape {
+    display: block;
+    right: 0;
+    z-index: 1;
+  }
+
