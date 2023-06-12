@@ -2121,3 +2121,12 @@ textarea.input-field {
     transform: translateY(50%);
     width: max-content;
   }
+
+  /**
+   * FEATURES
+   */
+
+  .features {
+    overflow: visible;
+  }
+
