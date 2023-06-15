@@ -91,3 +91,4 @@ const slideNext = function () {
 
   updateSliderPos();
 };
+heroSliderNextBtn.addEventListener("click", slideNext);
