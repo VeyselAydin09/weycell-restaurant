@@ -113,3 +113,19 @@ const autoSlide = function () {
     slideNext();
   }, 7000);
 };
+
+addEventOnElements(
+  [heroSliderNextBtn, heroSliderPrevBtn],
+  "mouseover",
+  function () {
+    clearInterval(autoSlideInterval);
+  }
+);
+
+addEventOnElements(
+  [heroSliderNextBtn, heroSliderPrevBtn],
+  "mouseout",
+  autoSlide
+);
+
+window.addEventListener("load", autoSlide);
