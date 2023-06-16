@@ -101,3 +101,4 @@ const slidePrev = function () {
 
   updateSliderPos();
 };
+heroSliderPrevBtn.addEventListener("click", slidePrev);
