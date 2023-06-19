@@ -129,3 +129,10 @@ addEventOnElements(
 );
 
 window.addEventListener("load", autoSlide);
+/**
+ * PARALLAX EFFECT
+ */
+
+const parallaxItems = document.querySelectorAll("[data-parallax-item]");
+
+let x, y;
