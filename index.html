@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="Weycell - Amazing & Delicious Food" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Grilli - Amazing & Delicious Food</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food" />
     <meta
       name="description"
       content="This is a Restaurant html template made by codewithsadee"
     />
 
-    <!-- favicon -->
+    <!-- 
+    - favicon
+  -->
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-    <!-- google font -->
+    <!-- 
+    - google font link
+  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,16 +30,19 @@
       rel="stylesheet"
     />
 
+    <!-- 
+    - custom css link
+  -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!-- - preload images -->
-
+    <!-- 
+    - preload images
+  -->
     <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
     <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
     <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
-
-    <title>Weycell-Restaurant</title>
   </head>
+
   <body id="top">
     <!-- 
     - #PRELOADER
@@ -37,10 +50,12 @@
 
     <div class="preload" data-preaload>
       <div class="circle"></div>
-      <p class="text">Weycell</p>
+      <p class="text">Grilli</p>
     </div>
 
-    <!-- top bar -->
+    <!-- 
+    - #TOP BAR
+  -->
 
     <div class="topbar">
       <div class="container">
@@ -53,6 +68,7 @@
             Restaurant St, Delicious City, London 9578, UK
           </span>
         </address>
+
         <div class="separator"></div>
 
         <div class="topbar-item item-2">
@@ -62,6 +78,7 @@
 
           <span class="span">Daily : 8.00 am to 10.00 pm</span>
         </div>
+
         <a href="tel:+11234567890" class="topbar-item link">
           <div class="icon">
             <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
@@ -77,12 +94,14 @@
             <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
           </div>
 
-          <span class="span">weycell@restaurant.com</span>
+          <span class="span">booking@restaurant.com</span>
         </a>
       </div>
     </div>
 
-    <!-- header -->
+    <!-- 
+    - #HEADER
+  -->
 
     <header class="header" data-header>
       <div class="container">
@@ -95,10 +114,11 @@
           />
         </a>
 
-        <nav class="navbar">
+        <nav class="navbar" data-navbar>
           <button class="close-btn" aria-label="close menu" data-nav-toggler>
             <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
           </button>
+
           <a href="#" class="logo">
             <img
               src="./assets/images/logo.svg"
@@ -107,6 +127,7 @@
               alt="Grilli - Home"
             />
           </a>
+
           <ul class="navbar-list">
             <li class="navbar-item">
               <a href="#home" class="navbar-link hover-underline active">
@@ -148,6 +169,7 @@
               </a>
             </li>
           </ul>
+
           <div class="text-center">
             <p class="headline-1 navbar-title">Visit Us</p>
 
@@ -174,6 +196,7 @@
             </a>
           </div>
         </nav>
+
         <a href="#" class="btn btn-secondary">
           <span class="text text-1">Find A Table</span>
 
@@ -190,11 +213,11 @@
       </div>
     </header>
 
-    <!-- main -->
-
     <main>
       <article>
-        <!-- hero -->
+        <!-- 
+        - #HERO
+      -->
 
         <section class="hero text-center" aria-label="home" id="home">
           <ul class="hero-slider" data-hero-slider>
@@ -230,6 +253,7 @@
                 >
               </a>
             </li>
+
             <li class="slider-item" data-hero-slider-item>
               <div class="slider-bg">
                 <img
@@ -262,6 +286,7 @@
                 >
               </a>
             </li>
+
             <li class="slider-item" data-hero-slider-item>
               <div class="slider-bg">
                 <img
@@ -295,6 +320,7 @@
               </a>
             </li>
           </ul>
+
           <button
             class="slider-btn prev"
             aria-label="slide to previous"
@@ -323,7 +349,9 @@
           </a>
         </section>
 
-        <!-- #service-->
+        <!-- 
+        - #SERVICE
+      -->
 
         <section
           class="section service bg-black-10 text-center"
@@ -339,7 +367,8 @@
               industry lorem Ipsum has been the industrys standard dummy text
               ever.
             </p>
-            <ul class="grig-list">
+
+            <ul class="grid-list">
               <li>
                 <div class="service-card">
                   <a href="#" class="has-before hover:shine">
@@ -369,6 +398,7 @@
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="service-card">
                   <a href="#" class="has-before hover:shine">
@@ -398,6 +428,7 @@
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="service-card">
                   <a href="#" class="has-before hover:shine">
@@ -428,6 +459,7 @@
                 </div>
               </li>
             </ul>
+
             <img
               src="./assets/images/shape-1.png"
               width="246"
@@ -447,14 +479,16 @@
           </div>
         </section>
 
-        <!-- About -->
+        <!-- 
+        - #ABOUT
+      -->
 
         <section
           class="section about text-center"
           aria-labelledby="about-label"
           id="about"
         >
-          <div class="comtainer">
+          <div class="container">
             <div class="about-content">
               <p class="label-2 section-subtitle" id="about-label">Our Story</p>
 
@@ -484,6 +518,7 @@
                 <span class="text text-2" aria-hidden="true">Read More</span>
               </a>
             </div>
+
             <figure class="about-banner">
               <img
                 src="./assets/images/about-banner.jpg"
@@ -533,7 +568,9 @@
           </div>
         </section>
 
-        <!-- special dish -->
+        <!-- 
+        - #SPECIAL DISH
+      -->
 
         <section class="special-dish text-center" aria-labelledby="dish-label">
           <div class="special-dish-banner">
@@ -603,14 +640,18 @@
           />
         </section>
 
-        <!-- Menu -->
+        <!-- 
+        - #MENU
+      -->
 
         <section class="section menu" aria-label="menu-label" id="menu">
-          <div class="contianer">
+          <div class="container">
             <p class="section-subtitle text-center label-2">
               Special Selection
             </p>
+
             <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
             <ul class="grid-list">
               <li>
                 <div class="menu-card hover:card">
@@ -679,6 +720,7 @@
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="menu-card hover:card">
                   <figure
@@ -711,6 +753,7 @@
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="menu-card hover:card">
                   <figure
@@ -745,6 +788,7 @@
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="menu-card hover:card">
                   <figure
@@ -777,6 +821,7 @@
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="menu-card hover:card">
                   <figure
@@ -810,6 +855,7 @@
                 </div>
               </li>
             </ul>
+
             <p class="menu-text text-center">
               During winter daily from <span class="span">7:00 pm</span> to
               <span class="span">9:00 pm</span>
@@ -840,7 +886,9 @@
           </div>
         </section>
 
-        <!-- testimonials -->
+        <!-- 
+        - #TESTIMONIALS
+      -->
 
         <section
           class="section testi text-center has-bg-image"
@@ -876,7 +924,9 @@
           </div>
         </section>
 
-        <!-- reservation -->
+        <!-- 
+        - #RESERVATION
+      -->
 
         <section class="reservation">
           <div class="container">
@@ -967,6 +1017,7 @@
                     <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                   </div>
                 </div>
+
                 <textarea
                   name="message"
                   placeholder="Message"
@@ -982,6 +1033,7 @@
                   >
                 </button>
               </form>
+
               <div
                 class="form-right text-center"
                 style="
@@ -1025,7 +1077,9 @@
           </div>
         </section>
 
-        <!-- features -->
+        <!-- 
+        - #FEATURES
+      -->
 
         <section class="section features text-center" aria-label="features">
           <div class="container">
@@ -1053,6 +1107,7 @@
                   </p>
                 </div>
               </li>
+
               <li class="feature-item">
                 <div class="feature-card">
                   <div class="card-icon">
@@ -1072,6 +1127,7 @@
                   </p>
                 </div>
               </li>
+
               <li class="feature-item">
                 <div class="feature-card">
                   <div class="card-icon">
@@ -1091,6 +1147,7 @@
                   </p>
                 </div>
               </li>
+
               <li class="feature-item">
                 <div class="feature-card">
                   <div class="card-icon">
@@ -1111,6 +1168,7 @@
                 </div>
               </li>
             </ul>
+
             <img
               src="./assets/images/shape-7.png"
               width="208"
@@ -1131,13 +1189,16 @@
           </div>
         </section>
 
-        <!-- event -->
+        <!-- 
+        - #EVENT
+      -->
 
         <section class="section event bg-black-10" aria-label="event">
           <div class="container">
             <p class="section-subtitle label-2 text-center">Recent Updates</p>
 
             <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
             <ul class="grid-list">
               <li>
                 <div class="event-card has-before hover:shine">
@@ -1170,6 +1231,7 @@
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="event-card has-before hover:shine">
                   <div
@@ -1201,6 +1263,7 @@
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="event-card has-before hover:shine">
                   <div
@@ -1231,6 +1294,7 @@
                 </div>
               </li>
             </ul>
+
             <a href="#" class="btn btn-primary">
               <span class="text text-1">View Our Blog</span>
 
@@ -1241,7 +1305,9 @@
       </article>
     </main>
 
-    <!-- Footer -->
+    <!-- 
+    - #FOOTER
+  -->
 
     <footer
       class="footer section has-bg-image text-center"
@@ -1306,6 +1372,7 @@
               </button>
             </form>
           </div>
+
           <ul class="footer-list">
             <li>
               <a href="#" class="label-2 footer-link hover-underline">Home</a>
@@ -1333,6 +1400,7 @@
               >
             </li>
           </ul>
+
           <ul class="footer-list">
             <li>
               <a href="#" class="label-2 footer-link hover-underline"
@@ -1365,9 +1433,10 @@
             </li>
           </ul>
         </div>
+
         <div class="footer-bottom">
           <p class="copyright">
-            &copy; 2023 @ veysel Aydın
+            &copy; 2022 Grilli. All Rights Reserved | Crafted by
             <a
               href="https://github.com/codewithsadee"
               target="_blank"
@@ -1382,6 +1451,7 @@
     <!-- 
     - #BACK TO TOP
   -->
+
     <a
       href="#top"
       class="back-top-btn active"
@@ -1390,7 +1460,15 @@
     >
       <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
     </a>
+
+    <!-- 
+    - custom js link
+  -->
     <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
