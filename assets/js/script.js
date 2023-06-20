@@ -38,6 +38,7 @@ const toggleNavbar = function () {
 };
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
+
 /**
  * HEADER & BACK TOP BTN
  */
@@ -46,6 +47,7 @@ const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
 
 let lastScrollPos = 0;
+
 const hideHeader = function () {
   const isScrollBottom = lastScrollPos < window.scrollY;
   if (isScrollBottom) {
@@ -56,6 +58,7 @@ const hideHeader = function () {
 
   lastScrollPos = window.scrollY;
 };
+
 window.addEventListener("scroll", function () {
   if (window.scrollY >= 50) {
     header.classList.add("active");
@@ -66,6 +69,7 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
 /**
  * HERO SLIDER
  */
@@ -77,11 +81,13 @@ const heroSliderNextBtn = document.querySelector("[data-next-btn]");
 
 let currentSlidePos = 0;
 let lastActiveSliderItem = heroSliderItems[0];
+
 const updateSliderPos = function () {
   lastActiveSliderItem.classList.remove("active");
   heroSliderItems[currentSlidePos].classList.add("active");
   lastActiveSliderItem = heroSliderItems[currentSlidePos];
 };
+
 const slideNext = function () {
   if (currentSlidePos >= heroSliderItems.length - 1) {
     currentSlidePos = 0;
@@ -91,7 +97,9 @@ const slideNext = function () {
 
   updateSliderPos();
 };
+
 heroSliderNextBtn.addEventListener("click", slideNext);
+
 const slidePrev = function () {
   if (currentSlidePos <= 0) {
     currentSlidePos = heroSliderItems.length - 1;
@@ -101,7 +109,9 @@ const slidePrev = function () {
 
   updateSliderPos();
 };
+
 heroSliderPrevBtn.addEventListener("click", slidePrev);
+
 /**
  * auto slide
  */
@@ -129,6 +139,7 @@ addEventOnElements(
 );
 
 window.addEventListener("load", autoSlide);
+
 /**
  * PARALLAX EFFECT
  */
@@ -136,6 +147,7 @@ window.addEventListener("load", autoSlide);
 const parallaxItems = document.querySelectorAll("[data-parallax-item]");
 
 let x, y;
+
 window.addEventListener("mousemove", function (event) {
   x = (event.clientX / window.innerWidth) * 10 - 5;
   y = (event.clientY / window.innerHeight) * 10 - 5;
